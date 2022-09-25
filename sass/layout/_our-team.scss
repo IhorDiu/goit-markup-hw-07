@@ -1,8 +1,8 @@
-.our-team {
+.team-section {
   background-color: var(--background-color-our-team);
 }
 
-.our-team-title {
+.team-section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -10,13 +10,13 @@
   margin-bottom: 50px;
 }
 
-.our-team-box {
+.team-section__gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.our-team-list {
+.team-section__card {
   background-color: var(--background-color-our-team-list);
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -24,18 +24,18 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-name {
+.team-section__box {
   padding: 30px;
 }
 
-.team-name-list {
+.team-section__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   margin-bottom: 10px;
 }
-.team-name-professions {
+.team-section__position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -48,14 +48,14 @@
   column-gap: 10px;
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--backgroud-color-social-link);
+  background-color: var(--background-color-social-link);
   transition: background-color var(--transition-dur-and-func);
 
   &:hover,
@@ -64,14 +64,14 @@
   }
 }
 
-.social-list-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
   fill: var(--background-color-icon-inert);
   transition: fill var(--transition-dur-and-func);
 
-  .social-list-link:hover &,
-  .social-list-link:focus & {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     fill: var(--background-color-icon);
   }
 }

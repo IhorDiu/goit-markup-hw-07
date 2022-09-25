@@ -18,7 +18,7 @@
   padding-bottom: 200px;
 }
 
-.hero-name {
+.hero-section__name {
   margin-top: 0;
   margin-bottom: 30px;
   display: block;
@@ -37,7 +37,7 @@
   color: var(--primary-text-color-theme-dark);
 }
 
-.button-hero {
+.hero-section__button {
   display: inline-block;
   min-width: 216px;
   padding: 10px 32px;

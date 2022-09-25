@@ -1,4 +1,4 @@
-.modal-close-btn {
+.modal-btn__close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -21,7 +21,13 @@
   }
 }
 
-.btn-modal-form-submit {
+.modal-close__icon {
+  width: 18px;
+  height: 18px;
+}
+
+
+.modal-btn__submit {
   display: flex;
   align-self: center;
   justify-content: center;
