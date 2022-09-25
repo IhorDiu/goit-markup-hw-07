@@ -11,34 +11,38 @@
   justify-content: space-between;
 }
 
-.logo-studio-white {
-  color: var(--logo-color-light);
-}
-
-
-
-.address-footer {
-  margin-top: 20px;
-}
-
 .footer-list {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
 }
+
+.footer-address {
+  transition: color var(--transition-dur-and-func);
+  color: var(--primary-text-color-theme-dark);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
 .link-address:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-address {
-  transition: color var(--transition-dur-and-func);
-
-  color: var(--primary-text-color-theme-dark);
+.address-footer {
+  margin-top: 20px;
 }
+
 .footer-link {
   transition: color var(--transition-dur-and-func);
-
   color: var(--footer-link-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 /* ===================Subscribe=================== */
@@ -68,11 +72,10 @@
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &k:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .footer-social-list-icon {
@@ -82,15 +85,7 @@
 }
 
 /* ===================/Subscribe=================== */
-/* ===================Subscribe for mailing=================== */
-/* .footer-link-header {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-
-  color: var(--primary-text-color-theme-dark);
-} */
+/* ===================Subscribe FORM=================== */
 
 .subscribe-form-field {
   display: flex;
@@ -110,18 +105,18 @@
   border-radius: 4px;
   background-color: transparent;
   color: var(--primary-text-color-theme-dark);
-}
 
-.subscribe-email::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
 
-  color: rgba(255, 255, 255, 0.6);
-}
+    color: rgba(255, 255, 255, 0.6);
+  }
 
-.subscribe-email:focus,
-.subscribe-email:hover {
-  outline-color: var(--accent-color);
+  &:focus,
+  &:hover {
+    outline-color: var(--accent-color);
+  }
 }
 
 .subscribe-form-btn-title {
