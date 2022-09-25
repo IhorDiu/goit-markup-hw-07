@@ -1,0 +1,37 @@
+.modal-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  min-width: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  box-shadow: none;
+  transition: fill var(--transition-dur-and-func);
+
+  &:focus,
+  &:hover {
+    fill: var(--accent-color);
+    outline-color: var(--accent-color);
+    background-color: transparent;
+  }
+}
+
+.btn-modal-form-submit {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 52px;
+  color: var(--color-active-portfolio-btn);
+  border-color: transparent;
+
+  &:focus,
+  &:hover {
+    outline-color: var(--accent-color);
+  }
+}
