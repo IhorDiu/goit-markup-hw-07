@@ -64,8 +64,8 @@
 
 .subscribe__link {
   transition: background-color var(--transition-dur-and-func);
-
   transition: color var(--transition-dur-and-func);
+  @include flex-properties ();
   // display: flex;
   // align-items: center;
   // justify-content: center;
