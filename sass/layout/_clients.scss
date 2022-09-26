@@ -16,9 +16,10 @@
 .clients-section__link {
   transition: border-color var(--transition-dur-and-func);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-properties();
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   width: 170px;
   height: 92px;
   border: 1px solid var(--background-color-icon-inert);

@@ -71,11 +71,12 @@
   transition: color var(--transition-dur-and-func);
 
   display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color-theme-light);
   fill: currentColor;
-  align-items: center;
+  
 
   &:hover,
   &:focus {
@@ -84,9 +85,7 @@
 }
 
 .page-header__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-properties ();
   margin-right: 10px;
 }
 

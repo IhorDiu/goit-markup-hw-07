@@ -5,9 +5,10 @@
 }
 
 .footer__container {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  @include flex-properties (flex, baseline, space-between);
+  // display: flex;
+  // align-items: baseline;
+  // justify-content: space-between;
 }
 
 .footer__contacts {
@@ -64,9 +65,10 @@
 .subscribe__link {
   transition: background-color var(--transition-dur-and-func);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  transition: color var(--transition-dur-and-func);
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;

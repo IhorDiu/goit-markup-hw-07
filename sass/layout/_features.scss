@@ -10,9 +10,10 @@
 }
 
 .features-section__box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-properties();
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   width: 270px;
   height: 120px;
   background-color: var(--background-color-icon);
