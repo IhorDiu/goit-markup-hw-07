@@ -1,0 +1,13 @@
+@mixin pseudo($content: '', $pos: absolute, $display: block) {
+  content: $content;
+  position: $pos;
+  display: $display;
+}
+
+@mixin abs-position($top, $right, $bottom, $left) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
