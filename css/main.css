@@ -588,7 +588,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: var(--backgroud-color-hero);
+  background-color: var(--background-color-hero);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -1066,7 +1066,7 @@ h3 {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.subscribe__link:hover, .subscribe__linkk:focus {
+.subscribe__link:hover, .subscribe__link:focus {
   background-color: var(--accent-color);
 }
 
